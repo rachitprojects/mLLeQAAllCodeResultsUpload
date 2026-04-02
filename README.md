@@ -25,3 +25,17 @@ The repository with code, datasets and results for cross-lingual and backtransla
 https://github.com/Aln2004/english-biencoder-eval
 
 Set all paths appropriately should any errors arise
+
+Results for MDRM and BM25 experiments can be found in the results/bm25 and results/mdrl folders. 
+
+To replicate the experiments the outputs as obtained from : 
+    pip list
+    pip3 list
+    pip freeze
+    pip3 freeze
+    conda env export --from-history 
+    conda list
+    conda list --explicit
+
+are present in the version details folder in each results folder of each language. 
+
